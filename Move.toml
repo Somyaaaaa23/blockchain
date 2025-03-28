@@ -1,0 +1,20 @@
+[package]
+name = "AI-powered-tutoring-marketplace-on-Aptos"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x247bb1e4ba72f9a8ce20e28c93e4f25f05fbdc1d019fa3f3a7dd7491e9942aef"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "aptos-cli-v1.7.0"  # Use an older stable version
+subdir = "aptos-framework"
+
+
+
+
+
+[dev-dependencies]
